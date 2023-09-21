@@ -6,7 +6,7 @@ function factorialize(num) {
     // Começamos o laço FOR loop com i = 5
     // Diminuímos i em uma unidade após cada iteração 
     for (var i = num - 1; i >= 1; i--) {
-      num = num * i; 
+      num *= i; 
     }
     return num;
   }
